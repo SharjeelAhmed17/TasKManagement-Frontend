@@ -30,7 +30,7 @@ export default function Nav() {
     <nav>
       <div className='bg-gray-900 text-white font-bold uppercase px-6 py-3 shadow  outline-none py-4 flex inline w-full flex justify-between'>
         <div>
-        <h1 className='text-[32px]'>DASHBORD</h1>
+        <h1 className='text-[32px]'>DASHBOARD</h1>
         </div>
         <div className='flex flex-row items-center'>
             <img src={avatar} alt="" className=' h-11 mr-3 rounded-full'/>

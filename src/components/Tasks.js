@@ -10,7 +10,7 @@ export default function Tasks({taskId, task, status, handleMap}) {
         type: "task",
         item : { id: taskId},
         collect: (monitor) => ({
-          isDragging: monitor.isDragging()
+          isDragging: !!monitor.isDragging()
         })
       }))
 
